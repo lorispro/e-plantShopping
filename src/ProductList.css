@@ -111,6 +111,12 @@ body {
     background-color: #c0392b;
 }
 
+.product-button.added-to-cart {
+  background-color: #888; /* Colore quando è aggiunto al carrello */
+  color: #fff;
+  cursor: not-allowed;
+}
+
 /* Pseudo-elements - Sale badge */
 .product-card::before {
     content: "SALE";
